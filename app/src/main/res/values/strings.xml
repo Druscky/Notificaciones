@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Notificaciones</string>
+    <string name="tvToastTitle">Toast</string>
+    <string name="tvDescription">Personalizado</string>
+    <string name="tvTitulo">SISTEMAS DE NOTIFICACIÓN</string>
+    <string name="tvToast">TOAST</string>
+    <string name="tvSnackBar">SNACKBAR</string>
+    <string name="btnNormal">NORMAL</string>
+    <string name="btnGravity">GRAVITY</string>
+    <string name="btnCustom">CUSTOM</string>
+    <string name="sbNormal">NORMAL</string>
+    <string name="sbColor">SB COLOR</string>
+    <string name="sbCustom">CUSTOM</string>
+
+
+</resources>
