@@ -7,6 +7,7 @@ import android.view.Gravity
 import android.view.View
 import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
 import androidx.core.content.ContextCompat
 import com.google.android.material.snackbar.Snackbar
 
@@ -55,5 +56,14 @@ class MainActivity : AppCompatActivity() {
         sbLayout.addView(customLayout, 0)
         s.setBackgroundTint(Color.YELLOW)
         s.show()
+    }
+    fun alerDialog(view:View){
+        AlertDialog.Builder(view.context)
+            .setTitle("Aviso")
+            .setMessage("Ésto es un mensaje de alerta")
+            .setIcon(R.drawable.alerta)
+            .setPositiveButton("Aceptar") { dialog, id -> /* Acción */ }
+            .show()
+
     }
 }

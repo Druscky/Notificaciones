@@ -11,6 +11,12 @@
     <string name="sbNormal">NORMAL</string>
     <string name="sbColor">SB COLOR</string>
     <string name="sbCustom">CUSTOM</string>
+    <string name="tvNotificacion">NOTIFICACIÓN</string>
+    <string name="avAlerta">ALERTA</string>
+    <string name="avSeleccion">SELECCIÓN</string>
+    <string name="avCustom">CUSTOM</string>
+    <string name="tvAviso">AVISO</string>
+    <string name="tvMensaje">Ésto es una Alerta</string>
 
 
 </resources>
